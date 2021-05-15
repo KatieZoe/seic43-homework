@@ -10,11 +10,22 @@ function factorial(){
     // This function returns the factorial of a given number.
 }
 
-function fibonacci(){
-    // This function returns the Nth number in the fibonacci sequence.
-    // https://en.wikipedia.org/wiki/Fibonacci_number
-    // For this function, the first two fibonacci numbers are 1 and 1
+//formula
+//fib(n) = fib(n-1) + fib(n-2)
+
+function fibonacci(n){
+
 }
+
+
+ def fibonacci_recursive(n) {
+ if(n <= 2){
+ return 1
+} else {
+ fibonacci_recursive(n-2)
+}
+}
+fibonacci_recursive(3)
 
 function coinFlips(){
     // This function returns an array of all possible outcomes from flipping a coin N times.
