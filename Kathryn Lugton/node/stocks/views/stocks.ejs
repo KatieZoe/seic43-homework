@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <%- include('partials/head')%>
+  <body>
+  <div class="container">
+
+    <%-  include('partials/nav')%>
+
+    <form action='/stockbalance'>
+      <label>
+        Search a stock:
+        </label>
+        <input name="stockquery" placeholder="AAPL" required>
+        <button>Search</button>
+        </form>
+  </div>
+  </body>
+</html>
